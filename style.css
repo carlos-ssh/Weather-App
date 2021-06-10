@@ -9,6 +9,24 @@ body {
     background-image: url(https://source.unsplash.com/1600x900/?landscape);
 }
 
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    background-color: #0202028f;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}
+
 .bi-cloudy {
     font-size: 2rem;
     color: cornflowerblue;
@@ -20,11 +38,26 @@ body {
 }
 
 .card {
-    background-color: #020202c2;
+    background-color: #020202d2;
     color: #ffffff;
     padding: 2em;
     border-radius: 30px;
     width: 100%;
-    max-width: 420px;
+    max-width: 520px;
     margin: 1em;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 1em 1em;
+    border-radius: 24px;
+    background-color: #0202028f;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 120%;
+}
+
+button:hover{
+    background: #7c7c7c73;
 }
