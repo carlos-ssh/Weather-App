@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222222;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://source.unsplash.com/1600x900/?landscape);
+}
+
+.bi-cloudy {
+    font-size: 2rem;
+    color: cornflowerblue;
+}
+
+.bi-search {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #020202c2;
+    color: #ffffff;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
